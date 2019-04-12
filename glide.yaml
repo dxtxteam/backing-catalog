@@ -1,0 +1,14 @@
+package: github.com/dxtxteam/backing-catalog
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+  version: ^1.18.0
+- package: github.com/cloudnativego/backing-catalog
+  subpackages:
+  - service
+- package: github.com/cloudnativego/cf-tools
+- package: github.com/codegangsta/negroni
+  version: ^1.0.0
+- package: github.com/gorilla/mux
+  version: ^1.7.1
+- package: github.com/unrolled/render
+  version: ^1.0.0
